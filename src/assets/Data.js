@@ -4,19 +4,19 @@ import pahiram from "../assets/pahiram.png";
 
 export const projects = [
   {
-    title: "Ticketnation",
+    title: "June 2022 - May 2024",
 
     imageUrl: tn,
     url: "https://ticketnation.ph",
   },
   {
-    title: "Gratchi's Getaway",
+    title: "September 2020 - June 2022",
 
     imageUrl: gratchi,
     url: "https://www.gratchisgetaway.com/",
   },
   {
-    title: "Pahiram.ph",
+    title: "September 2019 - September 2020",
 
     imageUrl: pahiram,
     url: "https://pahiram.ph",

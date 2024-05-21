@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 const TechStack = () => {
   const headingText = "My Tech Stack";
   return (
-    <div className="min-h-screen p-8 bg-[#fff] flex flex-col justify-center items-center text-center">
+    <div className="min-h-screen p-8 bg-[#fff] gap-10 flex flex-col justify-center items-center text-center">
       <h2 className="text-4xl font-bold text-center mb-8 text-[#1a1a1a] tracking-wider">
         {headingText.split("").map((letter, index) => (
           <span key={index} className="pulse-letter">

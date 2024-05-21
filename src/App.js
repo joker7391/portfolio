@@ -15,7 +15,6 @@ function App() {
         <Element name="home">
           <Homepage />
         </Element>
-
         <Element name="projects">
           <Projects />
         </Element>
