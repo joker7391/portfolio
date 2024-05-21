@@ -22,3 +22,33 @@ export const projects = [
     url: "https://pahiram.ph",
   },
 ];
+
+export const techStack = [
+  {
+    category: "Frontend",
+    technologies: [
+      "React",
+      "Next.js",
+      "React Native",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+    ],
+  },
+  {
+    category: "Backend",
+    technologies: [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "GraphQL",
+      "PostgreSQL",
+      "PHP",
+    ],
+  },
+  {
+    category: "Tools",
+    technologies: ["Git", "Docker", "Webpack", "Babel", "Jest", "ESLint"],
+  },
+];

@@ -12,7 +12,10 @@ function App() {
     <div className="bg-green-500 relative">
       <Header />
       <div className="bg-[#f0f0f0] min-h-screen mx-auto">
-        <Homepage />
+        <Element name="home">
+          <Homepage />
+        </Element>
+
         <Element name="projects">
           <Projects />
         </Element>
