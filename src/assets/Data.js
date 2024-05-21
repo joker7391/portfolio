@@ -4,7 +4,7 @@ import pahiram from "../assets/pahiram.png";
 
 export const projects = [
   {
-    title: "June 2022 - May 2024",
+    title: "June 2022 - Aug 2023",
 
     imageUrl: tn,
     url: "https://ticketnation.ph",
