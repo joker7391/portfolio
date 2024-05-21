@@ -14,7 +14,7 @@ const Projects = () => {
           </span>
         ))}
       </h2>
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center items-center">
         {projects.map((project, index) => (
           <div
             key={index}
@@ -27,7 +27,7 @@ const Projects = () => {
                 alt={project.title}
                 className="w-56 h-40 object-contain object-center rounded-t-lg self-center"
               />
-              <h3 className="text-xl font-bold mt-4 text-center">
+              <h3 className="text-xl font-semibold mt-4 text-center">
                 {project.title}
               </h3>
             </a>

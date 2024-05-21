@@ -10,13 +10,13 @@ export const projects = [
     url: "https://ticketnation.ph",
   },
   {
-    title: "September 2020 - June 2022",
+    title: "Sept 2020 - June 2022",
 
     imageUrl: gratchi,
     url: "https://www.gratchisgetaway.com/",
   },
   {
-    title: "September 2019 - September 2020",
+    title: "Sept 2019 - Sept 2020",
 
     imageUrl: pahiram,
     url: "https://pahiram.ph",
