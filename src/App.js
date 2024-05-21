@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Homepage from "./Homepage";
 import Projects from "./components/Projects";
+import TechStack from "./components/TechStack";
+
 import { Element } from "react-scroll";
 
 function App() {
@@ -14,8 +16,11 @@ function App() {
         <Element name="projects">
           <Projects />
         </Element>
+        <Element name="techstack">
+          <TechStack />
+        </Element>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

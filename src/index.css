@@ -3,5 +3,28 @@
 @tailwind utilities;
 
 body {
-    @apply font-poppins;
+  @apply font-poppins;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
   }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.pulse-letter {
+  display: inline-block;
+  animation: pulse 1s infinite;
+  letter-spacing: 0.2em;
+}
+
+.pulse-letter:nth-child(odd) {
+  animation-delay: 0.2s;
+}
+.pulse-letter:nth-child(even) {
+  animation-delay: 0.4s;
+}

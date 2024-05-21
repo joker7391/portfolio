@@ -12,11 +12,11 @@ const Introduction = () => {
         backgroundPosition: "center",
       }}
     >
-      <h1 className="relative text-4xl font-bold text-[#fff] mb-4 z-10 bg-[#1a1a1add] p-2">
+      <h1 className="relative text-md lg:text-4xl font-bold text-[#fff] mb-4 z-10 bg-[#1a1a1add] p-2">
         Welcome to My Portfolio
       </h1>
 
-      <p className="relative text-lg text-[#fff] mb-6 z-10 ">
+      <p className="relative text-md lg:text-lg text-[#fff] mb-6 z-10 ">
         <span className="font-bold text-[#fff] bg-[#1a1a1add] px-1">
           Hi, I'm{" "}
         </span>
