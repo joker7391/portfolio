@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Homepage from "./Homepage";
 import Projects from "./components/Projects";
 import TechStack from "./components/TechStack";
-
+import TodoList from "./components/TodoList";
 import { Element } from "react-scroll";
 
 function App() {
@@ -20,6 +20,9 @@ function App() {
         </Element>
         <Element name="techstack">
           <TechStack />
+        </Element>
+        <Element name="todos">
+          <TodoList />
         </Element>
       </div>
       <Footer />

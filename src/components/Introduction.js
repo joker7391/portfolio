@@ -42,7 +42,7 @@ const Introduction = () => {
         to="projects"
         smooth={true}
         duration={500}
-        className="relative cursor-pointer bg-[#282323] text-white px-6 py-2 rounded-lg hover:bg-[#1d1616] transition duration-300 z-10"
+        className="relative cursor-pointer bg-[#282323] text-white px-6 py-2 rounded-lg hover:bg-gray-500 transition duration-300 z-10"
       >
         See My Projects
       </Link>

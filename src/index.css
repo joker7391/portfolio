@@ -28,3 +28,35 @@ body {
 .pulse-letter:nth-child(even) {
   animation-delay: 0.4s;
 }
+
+.notebook {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.notebook::before,
+.notebook::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  border-left: 1px solid #ddd;
+}
+
+.notebook::before {
+  left: 0;
+}
+
+.notebook::after {
+  right: 0;
+}
+
+.notebook-line {
+  padding-left: 40px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}

@@ -9,7 +9,7 @@ const Projects = () => {
     <div className="min-h-screen p-8 bg-[#1a1a1a] flex flex-col justify-center items-center gap-10">
       <h2 className="text-4xl font-bold text-center mb-8 text-[#fff] tracking-wider">
         {headingText.split("").map((letter, index) => (
-          <span key={index} className="pulse-letter">
+          <span key={index} className="">
             {letter}
           </span>
         ))}
@@ -38,7 +38,7 @@ const Projects = () => {
         to="techstack"
         smooth={true}
         duration={500}
-        className="block cursor-pointer text-center bg-[#fff] w-[12em] text-[#1a1a1a] px-6 py-2 rounded-lg hover:bg-[#1d1616] hover:text-[#fff] transition duration-300 z-10"
+        className="block cursor-pointer text-center bg-[#fff] w-[12em] text-[#1a1a1a] px-6 py-2 mb-10 rounded-lg hover:bg-gray-500 hover:text-[#fff] transition duration-300 z-10"
       >
         View Tech Stack
       </Link>
