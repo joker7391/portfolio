@@ -1,6 +1,6 @@
 import React from "react";
-import picture1 from "../assets/pic1.jpg";
 import html1 from "../assets/code-background.jpg";
+import { Link } from "react-scroll";
 
 const Introduction = () => {
   return (
@@ -10,7 +10,6 @@ const Introduction = () => {
         backgroundImage: `url(${html1})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        opacity: "1", // Adjust this to make the background image more subtle
       }}
     >
       <h1 className="relative text-4xl font-bold text-[#fff] mb-4 z-10 bg-[#1a1a1add] p-2">
@@ -18,14 +17,14 @@ const Introduction = () => {
       </h1>
 
       <p className="relative text-lg text-[#fff] mb-6 z-10 ">
-        <span className="font-bold text-[#fff] bg-[#1a1a1add] p-2 ">
-          Hi, I'm
+        <span className="font-bold text-[#fff] bg-[#1a1a1add] px-1">
+          Hi, I'm{" "}
         </span>
-        <span className="font-bold text-[#fff] bg-[#1a1a1add] p-2 ">
+        <span className="font-bold text-[#fff] bg-[#1a1a1add]">
           Daniel Jeffrey Aco,
         </span>
-        <span className="bg-[#1a1a1add] p-2 ">a passionate</span>
-        <span className="font-bold text-[#fff] bg-[#1a1a1add] p-2 ">
+        <span className="bg-[#1a1a1add]"> a passionate </span>
+        <span className="font-bold text-[#fff] bg-[#1a1a1add]">
           Software Developer
         </span>
         .
@@ -39,9 +38,14 @@ const Introduction = () => {
           for mobile applications.
         </span>
       </p>
-      <button className="relative bg-[#007bff] text-white px-6 py-2 rounded-lg hover:bg-[#005bb5] transition duration-300 z-10">
+      <Link
+        to="projects"
+        smooth={true}
+        duration={500}
+        className="relative cursor-pointer bg-[#282323] text-white px-6 py-2 rounded-lg hover:bg-[#1d1616] transition duration-300 z-10"
+      >
         See My Projects
-      </button>
+      </Link>
     </div>
   );
 };
